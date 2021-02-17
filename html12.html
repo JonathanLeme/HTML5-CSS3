@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/javaicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video width="560" controls autoplay loop>
+        <source src="videos/Sunset By The Sea - MP4.mp4" type="video/mp4">
+        <source src="videos/Sunset By The Sea - M4V.m4v" type="video/mp4">
+        <source src="videos/Sunset By The Sea - WebM.webm" type="video/webm">
+        <source src="videos/Sunset By The Sea - OGV.ogv" type="video/ogg">
+        <!-- Caso o vídeo não rode, seu navegador não tem compatibilidade com reprodução de vídeos. -->
+        <!-- OBS: Este tipo de postagem de vídeo se torna muito caro para o cliente! -->
+    </video>
+
+    <h1>Inserindo Vídeos do YouTube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Enserindo Vídeos do Vimeo</h1>
+        <iframe src="https://player.vimeo.com/video/191894507?color=ff9933&portrait=0" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/191894507">Animation Reel</a> from <a href="https://vimeo.com/shaoyuhsu">Shao YU Hsu</a></p>
+        <!-- Duas opções de vídeo para não ter custo de postagem de vídeo. Pegar vídeos do YouTube e Vimeo. -->
+</body>
+</html>
